@@ -46,32 +46,21 @@ function Header() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/pet" className="nav-link">
+                  <NavLink to="/product" className="nav-link">
                     Sản phẩm
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink to="/service" className="nav-link">
-                    Dịch vụ
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink to="/contact" className="nav-link">
-                    Liên hệ
                   </NavLink>
                 </li>
               </ul>
 
-              <ul className="navbar-nav mb-2 mb-lg-0 mt-1">
-                <li className="nav-item me-2">
+              <ul className="navbar-nav mb-3 mb-lg-0 mt-1">
+                <li className="nav-item me-1">
                   <NavLink to="/cart" className="nav-link position-relative">
                     <i className="fa-solid fa-cart-shopping me-1"></i>
-                    Giỏ hàng
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/login" className="nav-link">
-                    <i className="fa-solid fa-user"></i> Đăng nhập
+                    <i className="fa-solid fa-user"></i>
                   </NavLink>
                 </li>
               </ul>
